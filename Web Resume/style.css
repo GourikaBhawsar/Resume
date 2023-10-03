@@ -1,0 +1,148 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and some basic styling to the container */
+body {
+    background-color: #121111;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #a86a12;
+}
+
+header ul li {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 7px;
+}
+
+/* Style sections */
+.section {
+    margin-bottom: 30px;
+}
+
+.section .border {
+    border-top: 2px solid #a86a12;
+}
+
+.section h2 {
+    font-size: 18px;
+    color: #a86a12;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Style individual items within sections */
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 2px;
+}
+
+.item p {
+    font-size: 16px;
+    color: #777;
+}
+
+.skills ul li {
+    text-decoration: none;
+    display: flex;
+    padding-bottom: 4px;
+}
+
+.projects h5 {
+    color: #6e6969;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 200;
+}
+
+.projects h3 {
+    font-size: 17px;
+}
+
+.Color_change {
+    font-size: 15px;
+}
+
+.Project_Des {
+    font-size: 15px;
+    color: #6e6969;
+    padding-top: 5px;
+
+
+}
+
+.other_link a {
+    text-decoration: none;
+    color: #6e6969;
+
+}
+
+.items {
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.items p {
+    padding-bottom: 8px;
+}
+
+/* Style the footer */
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .section h2 {
+        font-size: 20px;
+    }
+
+    .item h3 {
+        font-size: 18px;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+
+    .skills {
+        font-size: 14px;
+    }
+}
